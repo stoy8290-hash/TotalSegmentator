@@ -2,7 +2,8 @@ name: Run detailed tests
 on:
   push:
     paths-ignore:
-      - '**.md'
+      - '**.md
+        workflow_dispatch:'
 jobs:
 
   run-tests:
